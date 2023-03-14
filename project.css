@@ -1,0 +1,155 @@
+.project {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.project:last-child{
+    margin-top: 30px;
+}
+
+.project-content {
+    width: 1000px;
+}
+
+.project-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.project-period {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    color: gray;
+}
+
+.project-detail {
+    margin: 30px 0;
+}
+
+.project-info {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px auto;
+}
+
+.project-info-label {
+    font-size: 20px;
+    font-weight: 800;
+    border-left: 5px solid black;
+    padding-left: 5px;
+}
+
+.project-info-value {
+    width: 400px;
+    font-size: 18px;
+}
+
+.project-info-value a {
+    color: blue;
+}
+
+.project-role {
+    text-align: center;
+    width: 500px;
+}
+
+.project-role div{
+    text-align: start;
+    padding-left: 20px;
+}
+
+.frame {
+    overflow: hidden;
+    width: 1000px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 40%;
+    height: 100px;
+    line-height: 100px;
+    z-index: 1;
+    text-align: center;
+    width: 5%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.3;
+    font-size: 35px;
+}
+
+.prev:hover, .next:hover {
+    opacity: 0.7;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+#carousel1 {
+    width: 7000px;
+    transition: transform 0.5s;
+}
+
+#carousel2 {
+    width: 9000px;
+    transition: transform 0.5s;
+}
+
+.springProject-img, .reactProject-img {
+    width: 1000px;
+    float: left;
+
+}
+
+.springProject-img img, .reactProject-img img {
+    width: 100%;
+    pointer-events: none;
+}
+
+.carousel-button {
+    text-align: center;
+}
+
+.carousel-button > button {
+    width: 30px;
+    height: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.carousel-button > button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.clicked {
+    background-color: black;
+}
+
+.project-explain {
+    width: 700px;
+    margin: 30px auto 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.project-explain div{
+    margin: 10px 0;
+    font-weight: 500;
+}
